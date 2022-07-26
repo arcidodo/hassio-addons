@@ -5,7 +5,7 @@
 # ==============================================================================
 
 # Wait for SABnzbd to become available
-bashio::net.wait_for 8080 localhost 300
+bashio::net.wait_for 8085 localhost 300
 
 bashio::log.info "Starting NGinX..."
 exec nginx
